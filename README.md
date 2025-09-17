@@ -159,7 +159,9 @@ It is recommended to cache variables instead of using GetComponent multiple time
  
 
 [Introduction to Unity Optimization - Unity Technologies](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#)
+
 [Performance and Optimization - Unity Technologies](https://learn.unity.com/course/performance-and-optimisation)
+
 [Unity UI Optimization - Unity Technologies](https://unity.com/how-to/unity-ui-optimization-tips)
 
 # A guide to better Dev Art
