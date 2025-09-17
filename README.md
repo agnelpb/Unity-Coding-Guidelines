@@ -84,13 +84,9 @@ Use XML documentation comments. Eg :
 
 You may use the following tags in addition to summary :
 
-> ```csharp
-/// <summary>: A brief summary of what the method or class does.
-
-/// <param>: Describes each parameter of a method.
-
-/// <returns>: Describes what the method returns (for non-void methods).
-> ```
+summary: A brief summary of what the method or class does.
+param : Describes each parameter of a method.
+returns : Describes what the method returns (for non-void methods).
 
 It is recommended to document all class and their public methods. If you think a private or protected method requires documentation, please add comment for them too.
 
