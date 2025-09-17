@@ -102,6 +102,59 @@ Use TODO comments to mark places in code that need further work or refactoring. 
 
 If you add a ToDo comment for a refactor that is not covered by a ticket, make sure to talk to the team lead to make a ticket for that issue.
 
+## Design Patterns & Principles
+ 
+Recommend checking out Design Patterns such as : Factory, Builder, Singleton, Facade, Adapter, Observer, Strategy, State in either of these links below.
+
+[Level up your code with game programming patterns - Unity Technologies](https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns?ungated=true)
+
+[Design Patterns - Refactoring Guru](https://refactoring.guru/design-patterns)
+
+ 
+
+# Dos & Don’ts
+ 
+
+## Avoid use of UnityEvents
+We encourage you to use System.Action instead of UnityEvents. This is to make it easy to find dependencies / logic flow of scripts via IDE. 
+
+## Use Start and Awake sparingly
+Initialization should be done in an Initialize function that is called by a parent. Use Start and Awake sparingly for initializing variables within script scope. This is to avoid race conditions when a script is initializing variables using data from other scripts that are not initialized. ( This can be project specific )
+
+## Limit use of Update()
+Try to avoid adding code to the Update func. It is resource intensive to have calculations in the update loop. If possible, refactor it to run based on events or user input.
+
+## Use object pooling
+Unity Instantiation and Destroy are resource intensive. It is recommended to use object pooling ( using UnityEngine.Pool ) instead of repeated instantiation and destroy of the same prefab. For networked prefabs, you will need custom object pooling solutions or a pooling feature provided by the network plugin.
+
+## Reduce use of hardcoded magic strings / numbers
+A magic string/number is a string/number that appears in code without explanation or context. 
+
+> ``` csharp
+> eg :  Heading.text = "Hello" // "Hello" is a magic string
+> ```
+
+It is easy to make typos and it is hard to refactor them when they are reused in multiple locations. Replaces them with one of the following options  
+
+- Constant variables 
+- Enum variable
+- Serialized variables exposed to Unity inspector
+- Data stored in Scriptable objects.
+
+## Cache variables and references
+Cache variables whenever possible. If a calculation is performed or Get() is called multiple times in a script, cache it. 
+
+Eg : Instead of yield return new WaitForEndofFrame, define a WaitForEndofFrame variable, initialize it during Start or Init and reuse the variable in loop.
+
+## Avoid use of GetComponent and Gameobject.Find
+Although it might seem easy to use GetComponent & GetComponentInChildren calls, it is recommended to keep the usage to minimum. There are multiple alternatives :
+
+- Serialize and expose the variable in Inspector : If the reference is within a prefab, it is recommended to set the reference to variable via inspector. 
+
+- Set it during initialization : If the reference is outside the prefab and you have a root level script, pass the reference either during Initialization of prefab or use a Set function.
+
+It is recommended to cache variables instead of using GetComponent multiple times.
+
 <br>
 
 # Team Culture
