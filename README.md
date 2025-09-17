@@ -103,8 +103,11 @@ Use TODO comments to mark places in code that need further work or refactoring. 
 If you add a ToDo comment for a refactor that is not covered by a ticket, make sure to talk to the team lead to make a ticket for that issue.
 
 <br>
+
 # Team Culture
+
 <br>
+
 ## No Blame
 
 No blame culture means focusing on learning from mistakes instead of blaming people. It encourages everyone to share errors without fear, so the team can find solutions together. This builds trust, improves morale, and helps the organization get better and fix issues faster.
