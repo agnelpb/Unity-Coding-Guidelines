@@ -85,7 +85,9 @@ Use XML documentation comments. Eg :
 You may use the following tags in addition to summary :
 
 summary: A brief summary of what the method or class does.
+
 param : Describes each parameter of a method.
+
 returns : Describes what the method returns (for non-void methods).
 
 It is recommended to document all class and their public methods. If you think a private or protected method requires documentation, please add comment for them too.
@@ -102,8 +104,9 @@ Use TODO comments to mark places in code that need further work or refactoring. 
 
 If you add a ToDo comment for a refactor that is not covered by a ticket, make sure to talk to the team lead to make a ticket for that issue.
 
+<br>
 # Team Culture
-<br><br>
+<br>
 ## No Blame
 
 No blame culture means focusing on learning from mistakes instead of blaming people. It encourages everyone to share errors without fear, so the team can find solutions together. This builds trust, improves morale, and helps the organization get better and fix issues faster.
