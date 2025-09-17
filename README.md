@@ -155,6 +155,24 @@ Although it might seem easy to use GetComponent & GetComponentInChildren calls, 
 
 It is recommended to cache variables instead of using GetComponent multiple times.
 
+# Unity Optimizations
+ 
+
+[Introduction to Unity Optimization - Unity Technologies](https://learn.unity.com/tutorial/introduction-to-optimization-in-unity#)
+[Performance and Optimization - Unity Technologies](https://learn.unity.com/course/performance-and-optimisation)
+[Unity UI Optimization - Unity Technologies](https://unity.com/how-to/unity-ui-optimization-tips)
+
+# A guide to better Dev Art
+
+## Use high contrast
+When in doubt, create elements in black & white or use colors that provide high contrast between background and foreground elements.
+
+## Follow Company/Product Branding
+Even when you are prototyping, try to follow the company / product branding by using the color palettes and fonts that will be used in the finished product. This will save time down the line and look consistent with the rest of the Art / UI.
+
+## Add padding to elements
+Add consistent padding to elements to create negative space between elements. This is one of the simplest ways to make even a prototype UI look good. 
+
 <br>
 
 # Team Culture
