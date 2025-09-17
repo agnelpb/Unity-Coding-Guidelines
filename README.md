@@ -5,7 +5,7 @@ The goal of this document is to set up a uniform coding style for all Unity deve
 
 ## Naming Conventions
  
-| Type | Convention | Column 3 |
+| Type | Convention | 
 |----------|----------|----------|
 | Public Fields    | _camelCase ( class scope ), camelCase ( method scope ) |
 | Private / Protected Fields   |  PascalCase |
