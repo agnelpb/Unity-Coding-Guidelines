@@ -195,5 +195,5 @@ If you can’t find something in this documentation, ask for help. There is no s
 
 ## Work-Life Balance
 
-Make sure you have a work life balance and you respect personal time of others, especially if they are in different time zones. Make use of Slack’s scheduled message if the person is in a different time zone and not working at the moment.
+Make sure you have a work life balance and you respect personal time of others, especially if they are in different time zones. If you are a Slack user, make use of Slack’s scheduled message if the person is in a different time zone and not working at the moment.
 
