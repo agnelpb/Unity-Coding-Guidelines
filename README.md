@@ -7,13 +7,11 @@ The goal of this document is to set up a uniform coding style for all Unity deve
  
 | Type | Convention | Column 3 |
 |----------|----------|----------|
-| Public Fields    | _camelCase ( class scope ) 
-                     camelCase ( method scope )
+| Public Fields    | _camelCase ( class scope ), camelCase ( method scope ) |
 | Private / Protected Fields   |  PascalCase |
 | Constant | ALLCAPS_ALLCAPS |
 | Interface | IDestroyable |
-| Boolean | IsGameOver ( starts with an auxiliary verb )
-_isGameOver |
+| Boolean | IsGameOver ( starts with an auxiliary verb ), _isGameOver |
 | Event  | ButtonClickEvent ( Event suffix ) |
 | Event Callback | OnButtonClicked ( On prefix ) / OnButtonClickedCallback  |
 | Method | MethodNamePascalCase()  |
