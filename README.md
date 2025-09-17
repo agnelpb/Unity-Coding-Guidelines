@@ -84,8 +84,6 @@ Use XML documentation comments. Eg :
 
 You may use the following tags in addition to summary :
 
-summary: A brief summary of what the method or class does.
-
 param : Describes each parameter of a method.
 
 returns : Describes what the method returns (for non-void methods).
