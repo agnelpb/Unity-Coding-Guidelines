@@ -191,7 +191,7 @@ Take responsibility for everything around you, whether it is your fault or not. 
 
 ## Ask for help
 
-If you can’t find something in these documentation or in ChatGPT, ask for help. There is no shame in asking for help. If you are getting invited to too many meetings and it is interrupting the flow of your work, reach out to Agnel and we will get that fixed. 
+If you can’t find something in this documentation, ask for help. There is no shame in asking for help.
 
 ## Work-Life Balance
 
