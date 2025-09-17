@@ -33,20 +33,25 @@ Eg:
 Use Descriptive names
 Avoid abbreviations. Use full, descriptive names rather than short forms.
 
+> ```csharp
 > public class AudioManager { ... } // Recommended
 > public class AudMgr { ... } // Not recommended
+> ```
 
 ## Reconsider public fields
 Use properties instead to provide access to the fields.
 
+> ```csharp
 > private int _maxHealth; 
 > public int MaxHealth { get { return _maxHealth; } }
+> ```
  
 
 ## Use singular names for enums
 Enum names should be singular, with members in PascalCase.
 
 
+> ```csharp
 > public enum GameState 
 > {
 >  Initializing, 
@@ -54,16 +59,19 @@ Enum names should be singular, with members in PascalCase.
 >  Paused, 
 >  GameOver 
 > }
+> ```
 
 Read more : [Writing Cleaner code that scales - Unity Technologies](https://resources.unity.com/games/create-code-style-guide-e-book?ungated=true)
 
 ## Code Documentation Style
 Use XML documentation comments. Eg :
 
+> ```csharp
 > /// <summary> 
 > /// Moves the player to a specified position. 
 > /// </summary>
 > public void MovePlayer()
+> ```
  
 
 You may use the following tags in addition to summary :
